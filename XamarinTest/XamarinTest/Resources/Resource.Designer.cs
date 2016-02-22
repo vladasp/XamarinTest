@@ -44,6 +44,9 @@ namespace XamarinTest
 		public partial class Drawable
 		{
 			
+			// aapt resource value: 0x7f020000
+			public const int Icon = 2130837504;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -58,7 +61,10 @@ namespace XamarinTest
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int ContactsView = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
 			
 			static Layout()
 			{
